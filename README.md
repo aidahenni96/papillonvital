@@ -2,13 +2,13 @@ Papillon Vital 🦋
 
 Papillon Vital is an e-commerce platform dedicated to selling organic products specially selected for people with Hashimoto's disease. Built with Ruby on Rails, it offers a smooth shopping experience, secure payments, and admin management features.
 
-🌿 Overview
+# Overview
 
 Papillon Vital helps users discover and purchase organic products that support thyroid health. It focuses on offering high-quality items, a pleasant and accessible user interface, and a secure checkout process.
 
-🚀 MVP Features
+# MVP Features
 
-🛍️ For Visitors
+# For Visitors
 
 View a list of organic products on the homepage
 
@@ -16,7 +16,7 @@ Click on a product to see its details
 
 Sign up and log in
 
-🧾 For Logged-in Users
+# For Logged-in Users
 
 Add products to a shopping cart
 
@@ -26,15 +26,15 @@ Secure checkout using Stripe
 
 Receive an order confirmation email
 
-🛠️ For Admin
+# For Admin
 
 Receive an email with full order details after each purchase
 
-⚙️ For Developers
+# For Developers
 
 Pre-filled seeds.rb file with sample products for easy setup
 
-🔜 Post-MVP (Planned)
+# Post-MVP (Planned)
 
 Admin dashboard to view and manage orders
 
@@ -50,7 +50,7 @@ Shipping status notifications
 
 Responsive design (mobile/tablet/desktop)
 
-🧰 Tech Stack
+# Tech Stack
 
 Backend: Ruby on Rails 7
 
@@ -66,7 +66,7 @@ Database: PostgreSQL
 
 Deployment: Render / Heroku (to be confirmed)
 
-🗂️ Setup Instructions
+# Setup Instructions
 
 Clone the repository
 
