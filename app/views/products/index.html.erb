@@ -2,15 +2,16 @@
 
 <% content_for :title, "Products" %>
 
-<h1>Products</h1>
+<h1>Nos Produits Hashimoto Friendly</h1>
 
 <div id="products">
   <% @products.each do |product| %>
     <%= render product %>
+    <p><strong>Prix :</strong> <%= number_to_currency(product.price, unit: "€", separator: ",", delimiter: " ") %></p>
     <p>
-      <%= link_to "Show this product", product %>
+      <%= link_to "Voir ce produit", product %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New product", new_product_path %>
+<%= link_to "Nouveau produit", new_product_path %>
